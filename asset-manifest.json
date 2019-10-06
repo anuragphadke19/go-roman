@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/go-roman/static/css/main.b100e6da.chunk.css",
+    "main.js": "/go-roman/static/js/main.2364fc03.chunk.js",
+    "main.js.map": "/go-roman/static/js/main.2364fc03.chunk.js.map",
+    "runtime-main.js": "/go-roman/static/js/runtime-main.76f6b0df.js",
+    "runtime-main.js.map": "/go-roman/static/js/runtime-main.76f6b0df.js.map",
+    "static/js/2.ee14105f.chunk.js": "/go-roman/static/js/2.ee14105f.chunk.js",
+    "static/js/2.ee14105f.chunk.js.map": "/go-roman/static/js/2.ee14105f.chunk.js.map",
+    "index.html": "/go-roman/index.html",
+    "precache-manifest.b51f79de5b02d20c8be1fca6dab436b4.js": "/go-roman/precache-manifest.b51f79de5b02d20c8be1fca6dab436b4.js",
+    "service-worker.js": "/go-roman/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/go-roman/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76f6b0df.js",
+    "static/js/2.ee14105f.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.2364fc03.chunk.js"
+  ]
+}

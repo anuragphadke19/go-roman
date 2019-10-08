@@ -6,7 +6,7 @@ export default class App extends Component{
   render(){
     return (
       <div className="App">
-        <GoRoman displaytext="Let's go Roman!!"/>       
+        <GoRoman />       
       </div>)
   }
 }

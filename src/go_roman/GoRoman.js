@@ -11,8 +11,7 @@ export default class FirstComponent extends Component{
 
     constructor(props) {
         super(props);
-        this.state = { 
-            textBoxSug: "Please type a number"
+        this.state = {
         };
     }
     
@@ -20,7 +19,7 @@ export default class FirstComponent extends Component{
         const inputElem = ( <div>
             <input 
                 type="text"
-                placeholder={this.state.textBoxSug}
+                placeholder="Please type a number"
                 onChange={this.handleChange}/>
         </div>);
         const textElem = (<div>{this.state.textBoxValue}</div>);
@@ -29,7 +28,6 @@ export default class FirstComponent extends Component{
 
         return (<div className="comptext">
                 <h3>GO ROMAN</h3>
-                {this.props.displaytext}
                 {inputElem}
                 {textElem}
                 <Clock/>

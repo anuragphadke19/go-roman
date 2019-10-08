@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Clock from './Clock';
 
 export default class FirstComponent extends Component{
 
@@ -11,23 +12,8 @@ export default class FirstComponent extends Component{
     constructor(props) {
         super(props);
         this.state = { 
-            time: new Date().toLocaleTimeString(),
             textBoxSug: "Please type a number"
         };
-    }
-
-    tick() {
-        this.setState(prevState => ({
-          time: new Date().toLocaleTimeString()
-        }));
-    }
-
-    componentDidMount() {
-        this.interval = setInterval(() => this.tick(), 1000);
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.interval);
     }
     
     render(){
@@ -39,16 +25,14 @@ export default class FirstComponent extends Component{
         </div>);
         const textElem = (<div>{this.state.textBoxValue}</div>);
 
-        const timeElem = (<div>
-                            <h4>It is : </h4><i>{this.state.time}</i>
-                        </div>);
+        
 
         return (<div className="comptext">
                 <h3>GO ROMAN</h3>
                 {this.props.displaytext}
                 {inputElem}
                 {textElem}
-                {timeElem}
+                <Clock/>
             </div>
            
         );

@@ -1,7 +1,7 @@
 ## Go Roman
 Convert numbers to roman numerals
 
-The app will currently be eployed to [Go Roman](https://anuragphadke19.github.io/go-roman)
+The app will currently be deployed to [Go Roman](https://anuragphadke19.github.io/go-roman)
 
 
 
@@ -31,5 +31,9 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
+
+This will also deploy the app to github pages
+
+Further reference [here](https://github.com/gitname/react-gh-pages)
 
 

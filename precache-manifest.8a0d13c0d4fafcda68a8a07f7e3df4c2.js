@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4b36b378176189d8fe059180ec8276c",
+    "revision": "26ad7df9fc972893ef3c7a092a884e93",
     "url": "/go-roman/index.html"
   },
   {
-    "revision": "3a59a48718c9b28d8bf0",
+    "revision": "ab052b02d6e706853f71",
     "url": "/go-roman/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/go-roman/static/js/2.ee14105f.chunk.js"
   },
   {
-    "revision": "3a59a48718c9b28d8bf0",
-    "url": "/go-roman/static/js/main.2364fc03.chunk.js"
+    "revision": "ab052b02d6e706853f71",
+    "url": "/go-roman/static/js/main.ad9cd8c0.chunk.js"
   },
   {
     "revision": "48388fa7f61568d05421",
